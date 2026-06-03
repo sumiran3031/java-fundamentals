@@ -8,8 +8,8 @@ public class QueueDemo {
         queue.offer("Second");
         queue.offer("Third");
         System.out.println("Queue: " + queue);
-        System.out.println("Peek: " + queue.peek());   // front element
-        System.out.println("Poll: " + queue.poll());   // remove front
+        System.out.println("Peek: " + queue.peek());   
+        System.out.println("Poll: " + queue.poll());   
         System.out.println("After poll: " + queue);
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         pq.offer(30);
